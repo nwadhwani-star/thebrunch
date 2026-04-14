@@ -50,20 +50,30 @@ body::before {
     font-size: 22px;
 }
 
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 25px;
+}
+
+    .logo {
+    font-family: 'Playfair Display', serif;
+    font-size: 24px;
+    color: #154734;
+}
+
+
 .nav-links {
     display: flex;
     gap: 30px;
 }
 
 .nav-links a {
-    text-decoration: none;
+    text-decoration: underline;
     color: #154734;
     font-weight: 600;
-    font-size: 16px;
-}
-
-.nav-links a:hover {
-    text-decoration: underline;
+    font-size: 13px;
 }
 
 .hero {

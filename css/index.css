@@ -54,12 +54,11 @@ body::before {
     margin-bottom: 25px;
 }
 
-    .logo {
+.logo {
     font-family: 'Playfair Display', serif;
     font-size: 24px;
     color: #154734;
 }
-
 
 .nav-links {
     display: flex;
@@ -71,6 +70,17 @@ body::before {
     color: #154734;
     font-weight: 600;
     font-size: 13px;
+    padding-bottom: 4px;
+    border-bottom: 2px solid transparent;
+    transition: border-color 0.2s;
+}
+
+.nav-links a:hover {
+    border-bottom: 2px solid #154734;
+}
+
+.nav-links a.active {
+    border-bottom: 2px solid #154734;
 }
 
 /* HERO */

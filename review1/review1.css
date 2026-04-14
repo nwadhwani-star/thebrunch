@@ -42,26 +42,7 @@ body::before {
     margin-bottom: 25px;
 }
 
-.logo {
-    font-family: 'Playfair Display', serif;
-    color: #154734;
-    letter-spacing: 3px;
-    text-transform: uppercase;
-    font-size: 22px;
-}
 
-.nav-links {
-    display: flex;
-    gap: 30px;
-}
-
-.nav-links a {
-    text-decoration: none;
-    color: #154734;
-    font-weight: 600;
-    font-size: 16px;
-}
-/* NAVBAR */
 .navbar {
     display: flex;
     justify-content: space-between;
@@ -82,12 +63,10 @@ body::before {
 }
 
 .nav-links a {
+    text-decoration: underline;
     color: #154734;
     font-weight: 600;
     font-size: 13px;
-}
-.nav-links a:hover {
-    text-decoration: underline;
 }
 
 .hero {

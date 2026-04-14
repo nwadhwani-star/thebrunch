@@ -42,17 +42,15 @@ body::before {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-bottom: 50px;
+    margin-bottom: 25px;
 }
 
 .logo {
     font-family: 'Playfair Display', serif;
-    font-size: 22px;
-    letter-spacing: 3px;
+    font-size: 24px;
     color: #154734;
 }
 
-/* NAV LINKS */
 .nav-links {
     display: flex;
     gap: 30px;
@@ -62,11 +60,18 @@ body::before {
     text-decoration: none;
     color: #154734;
     font-weight: 600;
-    font-size: 16px;
+    font-size: 13px;
+    padding-bottom: 4px;
+    border-bottom: 2px solid transparent;
+    transition: border-color 0.2s;
 }
 
 .nav-links a:hover {
-    text-decoration: underline;
+    border-bottom: 2px solid #154734;
+}
+
+.nav-links a.active {
+    border-bottom: 2px solid #154734;
 }
 
 

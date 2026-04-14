@@ -170,7 +170,7 @@ body::before {
 /* CARD CONTAINER */
 .cards-container {
     display: flex;
-    gap: 25px;
+    gap: 80px;
     justify-content: flex-start;
     padding-left: 0;
    

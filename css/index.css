@@ -135,7 +135,7 @@ body::before {
 }
 
 .about-container {
-    max-width: 750px;
+   width: 100%;
 }
 
 .about-text h2 {
@@ -155,7 +155,7 @@ body::before {
 /* TOP PICKS */
 .top-picks-section {
     margin-top: 40px;
-    padding-left: 95px;
+    padding-left: 0;
 }
 
 .top-picks-section h2 {
@@ -171,7 +171,7 @@ body::before {
 .cards-container {
     display: flex;
     gap: 25px;
-    justify-content: center;
+    justify-content: flex-start;
     padding-left: 0;
    
 }
